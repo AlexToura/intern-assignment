@@ -1,7 +1,7 @@
 # intern-assignment
 This project was submitted as an entry for the Wolt Internship Competition. It aims to showcase predictive modeling tasks relevant to Wolt using provided datasets.
 
-##Dataset
+#Dataset
 
 We were provided with two datasets:
 
@@ -9,11 +9,11 @@ Flow of orders: Considered as a process fluctuating in time.
 
 Daily average of courier partners online: Reflects the availability of courier partners over time.
 
-Modeling Approach
+#Modeling Approach
 
 For this project, I chose the task of forecasting the amount of courier partners that will go online the following day, week, or longer. This task is highly relevant to Wolt's operations as it helps in optimizing resource allocation and ensuring timely delivery of orders.
 
-Working with the Data
+#Working with the Data
 
 Exploration
 
@@ -21,7 +21,7 @@ I explored the datasets and produced various statistics and graphs to gain insig
 
 Modeling
 
-I chose this approach because forecasting courier partner availability is crucial for Wolt's operations. By predicting future online presence, Wolt can ensure sufficient staffing levels to meet customer demand. I plan to evaluate the model using metrics such as Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE).
+I chose this approach because forecasting courier partner availability is crucial for Wolt's operations. By predicting future online presence, Wolt can ensure sufficient staffing levels to meet customer demand. I plan to evaluate the model using metrics such as Mean Absolute Error (MAE) .
 
 I performed data preparation, feature engineering, and implemented a predictive model tailored to the task.
 
@@ -29,7 +29,7 @@ Evaluation
 
 I am satisfied with the results obtained from the initial model. However, for deployment in production, I expect higher accuracy and robustness. The model should provide reliable predictions to support Wolt's operational decisions.
 
-Further Development
+#Further Development
 
 I plan to develop an neural network approach (like LSTM) and compare it with the previous approaches. 
 
